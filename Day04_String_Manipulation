@@ -1,0 +1,22 @@
+# Day 4 - String Manipulation Basics
+
+text = "Python Programming"
+
+# Length of string
+print(len(text))
+
+# Concatenation
+new_text = text + " Language"
+print(new_text)
+
+# Accessing characters
+print(text[0])
+print(text[-1])
+
+# String slicing
+print(text[0:6])
+print(text[7:])
+
+# String methods
+print(text.lower())
+print(text.upper())
