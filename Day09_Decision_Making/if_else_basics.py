@@ -2,9 +2,18 @@
 
 age = int(input("Enter age: "))
 
-if age < 5:
+# Logical operators (and, or)
+if age >= 0 and age < 5:
     print("Free bus ticket")
-elif age >= 60:
+
+elif age >= 60 or age == 59:
     print("Senior citizen discount")
+
 else:
     print("Full ticket price")
+
+    # Nested if
+    if age >= 18:
+        print("Adult passenger")
+    else:
+        print("Child passenger")
