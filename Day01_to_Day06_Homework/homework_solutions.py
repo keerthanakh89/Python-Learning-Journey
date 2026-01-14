@@ -36,3 +36,17 @@ print(text.lower())
 print(text[0:6])          # slicing
 print(len(text))          # length
 print(text.replace("Python", "Java"))
+# -------------------------
+# Lesson 5: Operators
+# -------------------------
+a = 10
+b = 3
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+
+print(a > b and b < 5)
+print(a == 10 or b == 5)
+
