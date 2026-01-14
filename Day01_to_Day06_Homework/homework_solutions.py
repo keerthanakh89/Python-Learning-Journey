@@ -63,3 +63,21 @@ print(numbers)
 print(numbers[1:4])
 print(len(numbers))
 print(sorted(numbers))
+# -------------------------
+# Lesson 6: Dictionaries
+# -------------------------
+student = {
+    "name": "Keerthana",
+    "age": 20,
+    "branch": "CSE"
+}
+
+print(student["name"])
+student["college"] = "VTU"
+student["age"] = 21
+student.pop("branch")
+
+print(student)
+
+for key, value in student.items():
+    print(key, value)
