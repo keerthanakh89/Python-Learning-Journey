@@ -49,4 +49,17 @@ print(a / b)
 
 print(a > b and b < 5)
 print(a == 10 or b == 5)
+# -------------------------
+# Lesson 6: Lists
+# -------------------------
+numbers = [10, 20, 30, 40, 50]
 
+numbers.append(60)
+numbers.insert(1, 15)
+numbers.remove(30)
+numbers.pop()
+
+print(numbers)
+print(numbers[1:4])
+print(len(numbers))
+print(sorted(numbers))
