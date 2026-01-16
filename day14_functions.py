@@ -14,4 +14,21 @@ def greet_user(name="Student"):
 def add_numbers(a, b):
     """Function with parameters and return value"""
     return a + b
+def eligibility_check(age):
+    """Decision making inside function"""
+    if age >= 18:
+        return "Eligible"
+    else:
+        return "Not Eligible"
 
+# Function calls
+greet()
+
+greet_user()
+greet_user("Keerthana")
+
+result = add_numbers(10, 20)
+print("Sum:", result)
+
+status = eligibility_check(19)
+print("Eligibility Status:", status)
