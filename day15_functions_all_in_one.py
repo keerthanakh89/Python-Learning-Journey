@@ -27,3 +27,22 @@ def student_details(name, age=18, *skills, **extra_info):
     print("Extra Info:")
     for key, value in extra_info.items():
         print(f"{key}: {value}")
+# Lambda function
+square = lambda x: x * x
+
+# Recursive function
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+# Nested function
+def result_analysis(marks):
+    def grade():
+        if marks >= 75:
+            return "Distinction"
+        elif marks >= 50:
+            return "Pass"
+        else:
+            return "Fail"
+    return grade()
