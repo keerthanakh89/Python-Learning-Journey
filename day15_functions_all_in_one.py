@@ -46,3 +46,15 @@ def result_analysis(marks):
         else:
             return "Fail"
     return grade()
+# Function calls
+student_details(
+    "Keerthana",
+    20,
+    "Python", "Git", "Problem Solving",
+    college="VTU",
+    city="Bangalore"
+)
+
+print("Square of 5:", square(5))
+print("Factorial of 5:", factorial(5))
+print("Result:", result_analysis(82))
