@@ -8,7 +8,6 @@
 # -------------------------
 print("Hello, Python!")
 print("Learning Python step by step")
-
 # -------------------------
 # Lesson 2: Variables & Data Types
 # -------------------------
