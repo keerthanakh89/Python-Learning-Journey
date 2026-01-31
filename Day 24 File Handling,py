@@ -1,0 +1,93 @@
+DAY 24 – File Handling in Python
+📂 What I Learned Today
+
+File handling in Python allows us to read from and write to files, which is essential for storing data permanently in real-world applications like logs, reports, and records.
+
+📁 Why File Handling?
+
+Store user data permanently
+
+Read data from files (marks, records, notes)
+
+Used in real applications like:
+
+Address books
+
+Billing systems
+
+Exam report generators
+
+📌 File Modes in Python
+Mode	Meaning	Use Case
+r	Read (default)	Read existing file
+w	Write	Overwrites file
+a	Append	Add content to end
+x	Create	Create new file
+b	Binary	Images, videos
+t	Text (default)	Text files
+✅ Opening a File
+file = open("students.txt", "r")
+
+✅ Reading From a File
+1️⃣ read() – Read entire file
+file = open("notes.txt", "r")
+print(file.read())
+file.close()
+
+2️⃣ readline() – Read one line
+file = open("notes.txt", "r")
+print(file.readline())
+file.close()
+
+3️⃣ readlines() – Read all lines as list
+file = open("notes.txt", "r")
+lines = file.readlines()
+print(lines)
+file.close()
+
+✅ Writing to a File (Overwrite)
+file = open("data.txt", "w")
+file.write("Namaskara Bengaluru!\n")
+file.write("Python is awesome!")
+file.close()
+
+
+📌 Old content will be removed
+
+✅ Appending to a File
+file = open("data.txt", "a")
+file.write("\nThis line is added later.")
+file.close()
+
+
+📌 Old content is preserved
+
+✅ Best Practice – Using with
+with open("students.txt", "r") as file:
+    content = file.read()
+    print(content)
+
+
+✔ Automatically closes the file
+✔ Clean and professional
+
+🗃️ Writing List Data to File
+students = ["Ravi", "Meena", "Dinesh"]
+
+with open("students.txt", "w") as file:
+    for student in students:
+        file.write(student + "\n")
+
+📝 Reading File Line by Line
+with open("students.txt", "r") as file:
+    for line in file:
+        print("Student:", line.strip())
+
+
+.strip() removes \n
+
+❌ Common Errors
+Error	Cause
+FileNotFoundError	File doesn’t exist
+PermissionError	Access denied
+IsADirectoryError	Folder opened as file
