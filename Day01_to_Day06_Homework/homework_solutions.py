@@ -1,4 +1,3 @@
-
 # Homework Solutions - Lessons 1 to 6
 # Based on mentor explained solutions
 # Covers Python fundamentals clearly
