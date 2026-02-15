@@ -2,7 +2,6 @@
 # Creating a list
 l = [10, 20, 30, 40, 50]
 print("Original list:", l)
-
 # Accessing list elements
 print("First element:", l[0])
 print("Last element:", l[-1])
