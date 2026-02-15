@@ -1,5 +1,4 @@
 # Day 3 - Formatted Strings (f-strings)
-
 name = "Keerthana"
 day = 3
 
