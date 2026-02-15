@@ -5,7 +5,6 @@ print("Original list:", l)
 # Accessing list elements
 print("First element:", l[0])
 print("Last element:", l[-1])
-
 # Modifying list (changing specific element)
 l[1] = 25
 print("After changing second element:", l)
