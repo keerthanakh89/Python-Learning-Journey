@@ -1,5 +1,4 @@
 # Day 9 - Decision Making (if-else)
-
 age = int(input("Enter age: "))
 
 # Logical operators (and, or)
