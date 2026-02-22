@@ -7,7 +7,6 @@ elif age >= 60 or age == 59:
     print("Senior citizen discount")
 else:
     print("Full ticket price")
-
     # Nested if
     if age >= 18:
         print("Adult passenger")
