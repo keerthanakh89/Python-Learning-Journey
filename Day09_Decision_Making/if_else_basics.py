@@ -1,6 +1,5 @@
 # Day 9 - Decision Making (if-else)
 age = int(input("Enter age: "))
-
 # Logical operators (and, or)
 if age >= 0 and age < 5:
     print("Free bus ticket")
