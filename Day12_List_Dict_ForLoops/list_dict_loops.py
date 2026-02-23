@@ -13,7 +13,6 @@ print(squares)
 # Dictionary comprehension
 square_dict = {x: x * x for x in range(1, 6)}
 print(square_dict)
-
 # List input using split
 values = input("Enter numbers: ").split()
 values = [int(x) for x in values]
