@@ -10,7 +10,6 @@ for key, value in student.items():
 # List comprehension
 squares = [x * x for x in range(1, 6)]
 print(squares)
-
 # Dictionary comprehension
 square_dict = {x: x * x for x in range(1, 6)}
 print(square_dict)
