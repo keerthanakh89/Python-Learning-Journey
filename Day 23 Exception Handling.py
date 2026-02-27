@@ -4,7 +4,6 @@
 # -------------------------------
 # if True
 #     print("Hello")   # Missing colon causes SyntaxError
-
 # -------------------------------
 # Runtime Error Example
 # -------------------------------
