@@ -1,5 +1,4 @@
 # Day 23 - Errors and Exception Handling in Python
-
 # -------------------------------
 # Syntax Error Example (commented)
 # -------------------------------
