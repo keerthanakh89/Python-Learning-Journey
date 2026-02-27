@@ -13,8 +13,6 @@ try:
     print(a / b)
 except ZeroDivisionError:
     print("Error: Division by zero")
-
-
 # -------------------------------
 # Handling ValueError
 # -------------------------------
