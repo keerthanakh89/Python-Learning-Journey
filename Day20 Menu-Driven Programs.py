@@ -22,7 +22,6 @@ while True:
 Detailed Example
 Scenario: Simple Calculator
 A menu-driven program to perform basic arithmetic operations.
-
 def menu():
     print("\nSimple Calculator")
     print("1. Addition")
