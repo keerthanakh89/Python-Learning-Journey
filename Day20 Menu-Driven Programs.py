@@ -5,7 +5,6 @@ def menu():
     print("2. Option 2")
     print("3. Option 3")
     print("4. Exit")
-
 while True:
     menu()
     choice = input("Enter your choice (1-4): ")
