@@ -41,7 +41,6 @@ while True:
         except ValueError:
             print("Invalid input! Please enter numeric values.")
             continue
-
     if choice == '1':
         print(f"Result: {num1} + {num2} = {num1 + num2}")
     elif choice == '2':
