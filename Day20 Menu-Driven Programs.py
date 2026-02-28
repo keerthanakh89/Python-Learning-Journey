@@ -29,7 +29,6 @@ def menu():
     print("3. Multiplication")
     print("4. Division")
     print("5. Exit")
-
 while True:
     menu()
     choice = input("Enter your choice (1-5): ")
