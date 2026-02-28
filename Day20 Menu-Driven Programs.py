@@ -8,7 +8,6 @@ def menu():
 while True:
     menu()
     choice = input("Enter your choice (1-4): ")
-    
     if choice == '1':
         print("You selected Option 1.")
     elif choice == '2':
