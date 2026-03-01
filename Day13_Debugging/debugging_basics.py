@@ -1,5 +1,4 @@
 # Day 13 - Debugging Basics
-
 i = 0
 
 while i <= 5:
