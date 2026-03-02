@@ -11,7 +11,6 @@ def student_details(name, age=18, *skills, **extra_info):
     """
     # Local variable
     status = "Active"
-
     print(f"Name: {name}")
     print(f"Age: {age}")
     print(f"Course: {course}")  # using global variable
