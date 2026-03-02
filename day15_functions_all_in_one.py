@@ -9,7 +9,6 @@ def student_details(name, age=18, *skills, **extra_info):
     - **kwargs (extra_info)
     - local vs global variable
     """
-
     # Local variable
     status = "Active"
 
