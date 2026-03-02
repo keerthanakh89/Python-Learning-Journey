@@ -1,7 +1,6 @@
 # Day 15 - Python Functions (All Concepts in One Example)
 # Global variable
 course = "Python"
-
 def student_details(name, age=18, *skills, **extra_info):
     """
     Demonstrates:
