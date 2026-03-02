@@ -15,7 +15,6 @@ def student_details(name, age=18, *skills, **extra_info):
     print(f"Age: {age}")
     print(f"Course: {course}")  # using global variable
     print(f"Status: {status}")
-
     print("Skills:")
     for skill in skills:
         print("-", skill)
