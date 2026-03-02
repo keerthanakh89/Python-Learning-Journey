@@ -1,5 +1,4 @@
 # Day 15 - Python Functions (All Concepts in One Example)
-
 # Global variable
 course = "Python"
 
